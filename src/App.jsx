@@ -10,21 +10,16 @@ import Tasks from "./components/tasks"
 
 
 const App = () => {
-    return ( <
-        div className = ' w-full h-screen overflow-x-hidden overflow-y-auto bg-black text-white ' >
+  return (
+    <div className=' w-full h-screen overflow-x-hidden overflow-y-auto bg-black text-white '>
 
-        <
-        Header / >
-        <
-        Counter / >
-        <
-        Form / >
-        <
-        Tasks / >
+     <Header/>
+     <Counter/>
+     <Form/>
+     <Tasks/>
 
-        <
-        /div>
-    )
+    </div>
+  )
 }
 
 export default App
